@@ -6,7 +6,7 @@
 If you haven't done so, follow the [instructions here](https://developer.hashicorp.com/terraform/tutorials/azure-get-started/azure-build#authenticate-using-the-azure-cli) to set up your Terraform authenticate using Azure CLI
 
 # Set Variables
-Change the project and location settings to use your own value
+Create a terraform.tfvars file. Assign the project and location settings using your values.
 ```
 project  = "tfexample"
 location = "australiaeast"
