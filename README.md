@@ -16,6 +16,11 @@ location = "australiaeast"
 ```
 git submodule add {Your function git repository}
 ```
+# Update submodule (Optional)
+If you will use the example code, update the submodule code before proceeding.
+```
+git submodule update --init --recursive
+```
 
 # Deploy
 ```
