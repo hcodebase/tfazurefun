@@ -1,0 +1,3 @@
+[submodule "fastapi-on-azure-functions"]
+	path = fastapi-on-azure-functions
+	url = https://github.com/Azure-Samples/fastapi-on-azure-functions.git
