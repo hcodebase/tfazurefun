@@ -1,12 +1,12 @@
 # Prerequisites
-- An Azure account with active subscription
+- An Azure account with an active subscription
 - Terraform installed on your local machine
 - Azure CLI installed and configured
 
-If you haven't done so, follow the [instruction here](https://developer.hashicorp.com/terraform/tutorials/azure-get-started/azure-build#authenticate-using-the-azure-cli) to set up your Terraform authenticate using Azure CLI
+If you haven't done so, follow the [instructions here](https://developer.hashicorp.com/terraform/tutorials/azure-get-started/azure-build#authenticate-using-the-azure-cli) to set up your Terraform authenticate using Azure CLI
 
 # Set Variables
-Chagne the project and location settings to use your own value
+Change the project and location settings to use your own value
 ```
 project  = "tfexample"
 location = "australiaeast"
@@ -21,4 +21,10 @@ git submodule add {Your function git repository}
 ```
 terraform init
 terraform apply -auto-approve
+```
+
+# Clean up
+Destroy the deployment:
+```
+terraform apply -destroy -auto-approve
 ```
